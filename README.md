@@ -11,8 +11,8 @@ Passo a Passo
 Clone o repositório (ou baixe os arquivos)
 
 ```bash
-git clone https://github.com/seu-usuario/temporizador-electron.git
-cd temporizador-electron
+git clone https://github.com/AugustoNeto00/Chronometer.git
+cd Chronometer
 ```
 Instale as dependências
 ```bash
