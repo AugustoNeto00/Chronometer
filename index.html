@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Teste massa do Electron</title>
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Cronometro simples feito por: Gusto</h1>
+        <p>Insta: @gusto.io</p>
+    </header>
+    <div class="container-md">
+        <div>
+            <div id="display" class="fw-bold">00:00:00</div>
+            <button class="btn btn-primary" id="iniciar">Iniciar</button>
+            <button class="btn btn-primary" id="parar">Stop</button>
+            <button class="btn btn-primary" id="reiniciar">Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/renderer.js"></script>
+</body>
+</html>

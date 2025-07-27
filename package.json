@@ -1,0 +1,20 @@
+{
+  "name": "crono",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Antonio Augusto",
+  "license": "MIT",
+  "description": "Esse app é um simples cronometro pra eu estudar, fiz pra passar o tempo e aprender a desenvolver apps com JS",
+  "devDependencies": {
+    "electron": "^37.2.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.7"
+  }
+}
