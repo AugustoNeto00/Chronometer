@@ -20,7 +20,7 @@ npm install
 ```
 Execute o app
 ```bash
-npm start
+npm run start
 ```
 Como funciona
 
